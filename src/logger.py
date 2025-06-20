@@ -1,6 +1,5 @@
 import logging
 import os
-import sys
 from datetime import datetime
 
 from src.exception import CustomException
@@ -14,12 +13,12 @@ LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE)
 logging.basicConfig(
         handlers=[
             logging.FileHandler(LOG_FILE_PATH),
-            logging.StreamHandler()  # Prints to console
+            logging.StreamHandler()  # Pr  ints to console
         ],
         format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
         level=logging.INFO
 
-    )
+)
 
 #Test
 # if __name__ == "__main__":
