@@ -192,3 +192,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+/artifacts/train.csv
+/artifacts/test.csv
+/artifacts/data.csv
+/notebook/2. MODEL TRAINING.ipynb
+/notebook/1 . EDA STUDENT PERFORMANCE .ipynb
