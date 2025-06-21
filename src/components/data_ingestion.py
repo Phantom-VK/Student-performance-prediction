@@ -1,6 +1,5 @@
 import os
 import sys
-from pathlib import Path
 
 from project_config import PROJECT_ROOT
 from src.exception import CustomException
