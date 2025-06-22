@@ -94,3 +94,11 @@ def evaluate_models(
     except Exception as e:
         logging.error(f"Error during model evaluation: {str(e)}")
         raise CustomException(e, sys)
+
+
+def load_object(file_path:str):
+    try:
+        with open(file_path, 'rb') as file:
+            return dill.load(file)
+    except Exception as e:
+        raise CustomException(e, sys)
