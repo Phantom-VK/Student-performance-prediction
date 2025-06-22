@@ -82,7 +82,7 @@ pip install -r requirements.txt
 
 1. Run the Flask application:
 ```bash
-python app.py
+python application.py
 ```
 
 2. Access the web interface at:
